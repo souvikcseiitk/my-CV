@@ -1,1 +1,1 @@
-## My CV in LaTeX and PDF format.
+## My CV in LaTeX and PDF format
