@@ -1,0 +1,293 @@
+\documentclass[10.8pt, a4paper]{extarticle}
+\usepackage{lipsum}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{bibentry}
+\nobibliography*
+\usepackage{romannum}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+\setlist[itemize]{noitemsep, topsep=0.3pt}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage[charter]{mathdesign} % Bitstream Charter
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+
+
+
+% Adjust margins
+\addtolength{\oddsidemargin}{0in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{0in}
+\addtolength{\topmargin}{0in}
+\addtolength{\textheight}{0in}
+\addtolength{\parskip}{.5mm} 
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\usepackage[margin=0.24in]{geometry}  
+\usepackage{xcolor, soul}
+\sethlcolor{lightgray}
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNoBullet}[2]{
+  \item[]\small{
+    \hspace{-9pt}\textbf{#1}{: #2 \vspace{-6pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item[]
+  \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+      \hspace{-10pt}\textbf{#1} & #2 \\
+      \hspace{-10pt}\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+% custom commands
+\newcommand{\shorterSection}[1]{\vspace{-10pt}\section{#1}}
+
+%-------------------------------------------
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\baselinestretch}{0.6} 
+\begin{document}
+
+\fontsize{9.8 pt}{11.3pt}\selectfont
+
+%----------HEADING-----------------
+\vspace{0pt}
+\begin{flushleft}
+\noindent {\huge\textbf{Souvik Mukherjee}}
+\vspace{-8pt}
+\end{flushleft}
+Department of Computer Science $\&$ Engineering \hfill \href{mailto:souvikm23@iitk.ac.in}{\faEnvelope{ souvikm23@iitk.ac.in}} / \faPhone{ +91-8158920720}\\
+Indian Institute of Technology, Kanpur \hfill \href{https://github.com/souvikcseiitk}{ \faGithub{souvikcseiitk}} / \href{https://www.linkedin.com/in/souvikcseiitk/}{ \faLinkedinSquare{ Souvik Mukherjee}}
+
+ 
+%----------- Education ----------------- 
+\setlength{\tabcolsep}{20pt}
+\begin{table}[h!]
+\centering
+\begin{tabular}{lllll}
+\toprule 
+\textbf{Degree}    & \textbf{University/School}   & \textbf{Subject/Discipline}    & \textbf{Year}     & \textbf{CPI/\%} \\ 
+\toprule
+Post Graduation & IIT, Kanpur    & MS-R, CSE (Cybersecurity)    & 2023-25   & 9.80\\ 
+Graduation  & VIT, Vellore & Major, ME and Minor, CSE  & 2017-21   & 9.16\\ 
+Intermediate/+2     & Sri Chaitanya, Vizag (HSC)   & STEM & 2015-17       & 92.00    \\ 
+Matriculation   & Sri Chaitanya, Vizag (SSC)   & STEM    & 2015          & 10.00   \\
+\bottomrule \\[-0.75cm]
+\end{tabular}
+\end{table}
+\vspace{12pt}
+
+%----------- Research -----------------
+\shorterSection{Research Experience}  
+\textbf{Face Morphing Attack Generation and Detection (Digital Forensics) (M.S-R Thesis );  \\Guide: Prof. Nisheeth Srivastava} 
+\vspace{2.8pt}
+\\\textbf{Impact: 50L+ students/year. Project of NTA for JEE Main/NEET UG exams in India}
+\hfill\hfill(\textit{Nov'23 - Present})
+
+\begin{itemize}  
+
+          \item Our research focuses on detecting \textbf{GAN-based morphs and Photoshopped morphs}. We have achieved over 95\% accuracy in detecting PNG-GAN morphs and over 98\% accuracy in 'non-scanned' photoshoped images. We have created a \textbf{CNN} that classifies an image as scanned or unscanned with 95\% accuracy. Tools: ELA, OpenCV, Pillow, InceptionV3, ResNET50, etc.\\[-0.6cm]
+        
+          
+    \end{itemize}
+
+
+
+
+%----------- Acad PROJECT-----------------
+\vspace{4pt}
+\shorterSection{Academic Projects}
+\vspace{2pt}
+
+% H-IOT
+\textbf{DOM and DFA Attack on AES} (CS666: H/W Security for IoT)(\textbf{A Grade}) Guide: Prof. Urbi Chatterjee \href{https://github.com/souvikcseiitk/CS666-Hardware-Security-for-Internet-of-Things/tree/main/Assignment%203}{\faGithub{}}  \hfill(July'23-Nov'23)
+	\\[-0.6cm]
+
+ \begin{itemize}
+\item  Determined the 5th byte of 10th round key by \textbf{DOM}. Analyzed 10K power traces and CT's with 2\textsuperscript{8} key guesses, applied inv. S-Box, binned results by LSB \& ranked guesses on mean differences across power traces to identify the highest-ranking as the key. \\[-0.6cm]
+\item Conducted fault injection, formed \textbf{DFA} eqns., iteratively retrieved key bytes. For 1B, \textbf{potential keys, reduced from 2\textsuperscript{8} to 30} \\[-0.6cm]
+\end{itemize}
+
+\vspace{2pt}
+
+% CSS
+ \textbf{Packet Capture Analysis} (CS628: CSS)(\textbf{A Grade}) Guide: Prof. Angshuman Karmakar \href{https://github.com/souvikcseiitk/CS628-Computer-Systems-Security/tree/main/Assignment%204}{\faGithub{}}  \hfill(July'23-Nov'23)
+	\\[-0.6cm]
+	\begin{itemize}
+ 
+          \item Analyzed .PCAP files using Wireshark to detect \textbf{SQL injection} (e.g., UNION SELECT commands) and \textbf{XSS attacks} (get root priveleges), including session ID theft via cookies.
+          \item Implemented safety measures against XSS and SQL Inj. Skills: Security analysis, Wireshark, vulnerability mitigation.
+          
+         
+\end{itemize}
+
+\vspace{2pt}
+
+%PQS
+\textbf{Designing efficient NTT, PWM \& I-NTT} (CS674 PQS)  (\textbf{A Grade}) Guide: Prof. Debapriya B. Roy \href{https://github.com/souvikcseiitk/CS674-Post-Quantum-Security}{\faGithub{}} \hfill(July'23-Nov'23)
+	\\[-0.6cm]
+	\begin{itemize}
+	    \item Computed the Fourier transform for two given functions using the \textbf{Cooley-Tukey NTT algorithm}. Performed point-wise multiplication on the transformed functions. Applied the \textbf{Gentleman-Sande inverse NTT} algorithm to the final output.
+
+\end{itemize}
+
+\vspace{2pt}
+
+%Modern crypto
+\textbf{Escaping the Caves}(CS641)(Modern Cryptology) 
+ (\textbf{A Grade}) Guide: Prof. Manindra Agrawal \href{https://github.com/souvikcseiitk/Escaping-the-Caves}{\faGithub{}} \hfill(Jan'24 - Apr'24)
+    \\[-0.6cm]
+	\begin{itemize}
+	      \item  Methodically \textbf {Analyzed and Decoded} a range of cryptosystems namely, \textbf {Substitution cipher, PlayFair cipher, EAEAE,  DES}.\\[-0.6cm]
+	      
+	      \item  Utilized advanced techniques to exploit cryptosystems, methods such as\textbf { frequency analysis, differential cryptanalysis}.\\[-0.6cm]
+	\end{itemize}
+\vspace{2pt}
+
+%ML
+\textbf{Breaking Companion ArbiteR PUF (CAR-PUF) using ML} (CS771) Guide: Prof. Purushottam Kar \href{https://github.com/souvikcseiitk/Companion-Arbiter-PUF-broken-by-ML-attacks}{\faGithub{}} \hfill(Jan'24 - Apr'24)
+	\\[-0.6cm]
+
+ \begin{itemize}
+    \item A CAR-PUF uses two arbiter PUFs and a secret threshold $\tau$. For same challenge, if $|\Delta w - \Delta r| \leq \tau$, the response is 0; else, it is 1.
+    \item Derived a mathematical proof showing that a CAR-PUF can be compromised by a single linear model.
+    \item Developed code to learn the linear model $W, b$ using logistic regression with $C=1.0$, mapping 32-dimensional input features to 528 for a better fit. Evaluated hyper-parameters for training time and accuracy.
+\end{itemize}
+
+
+\vspace{2pt}
+
+
+
+%----------- Self PROJECT-----------------
+\vspace{4pt}
+\shorterSection{Self Projects}
+\textbf{Project GATE CSE GPT} (Winter LLM Bootcamp, Pathway x IIT-K x IIT-BHU, Non-Academic) \href{https://github.com/souvikcseiitk/gate_cse_gpt}{\faGithub{}} \hfill(Feb'24) \\
+         \textbf{Impact: 1L+ students/year} \\
+         
+	\begin{itemize}
+ 
+        \item Developed a real-time chatbot using OpenAI \& Pathway for document search \& retrieval, helping students with interview prep, PYQ, test-series, \& other CSE doubts, to aid who can't afford coaching. It integrates Pathway’s LLM App \& Dropbox in the backend.
+
+        \item \textbf{API Setup: }The API uses Pathway to process user queries by reading \& parsing binary data from Dropbox, \textbf{computing embeddings} with the OpenAI API, \& indexing them for efficient search. Responses to user is based on these indexed embeddings.
+
+        \item \textbf{User Interface: }Built with \textbf{Streamlit}, inputs queries, sends to the API via POST, displays responses, \& shows error, if request fails.
+	\end{itemize}
+
+\medskip
+\vspace{2mm}
+%----------- Courses -----------------
+\vspace{-2mm}
+
+\shorterSection{Relevant Courses and Technical Skills}
+\begin{itemize}
+\item \textbf{Mtech Courses :} Introduction to ML, Modern Cryptology, Computer Systems Security, Hardware Security for IOT Devices.
+\item \textbf{Btech Courses :} Data Structures \& Algorithms, Computer Architecture, Essentials of ML,Digital Logic, Database Management.
+\item \textbf{Prog./Scripting Languages:} C, C++(proficient), Python (proficient), Java, JavaScript, Verilog HDL, HTML, CSS, MySQL.
+\item \textbf{ML Lib/Tools:} Scikit-learn, Tensorflow, PyTorch, NumPy, OpenCV, Pillow, Pandas, Matplotlib, Git, \LaTeX, Google Colab, Jupyter. 
+ \medskip
+\end{itemize}
+
+\vspace{0mm}
+
+%-----------Position of Responsibility / Experience-----------------
+
+\shorterSection{Positions of Responsibility \& Work Experience}
+\begin{itemize}
+
+\item \textbf{Associate Engineer at L\&T:} Designed check plates for GD\&T of manufactured 
+ vehicles body parts. 
+\href{https://drive.google.com/file/d/1OrfxyGyHMvoRFeCne3UPIx8iQgQaKPqk/view?usp=sharing}{\faLink{}} \href{https://drive.google.com/file/d/1JMF9GNNZ7MU2pVo0j9vEk110BOJtHZgV/view?usp=sharing}{\faLink{}}  \hfill\hfill(\textit{Aug'21-March'22})  \\[-0.6cm]
+
+\item \textbf{ESC111/112 Course Admin (Head TA) :} Management of exams, course logistics and duties of other TA's. \hfill\hfill(\textit{Jan'24-May'24})  \\[-0.6cm]
+
+\item \textbf{Teaching Assistant :} Two sem of assisting students with doubt resolution, lab test management \& grading \hfill\hfill(\textit{Aug'23-May'24})  \\[-0.6cm]
+
+\item \textbf{Teaching Assistant :} CS 637: Embedded and Cyber-Physical Systems \hfill\hfill(\textit{Aug'24-Present})  \\[-0.6cm]
+
+\item \textbf{Student Guide, Institute Counselling Services, IIT Kanpur:} Mentoring 8 freshmen, giving academic support. \hfill\hfill(\textit{Jul'24-Present})\\[-0.6cm]
+
+\item \textbf{Crew \& Coordinator: }in Mechnovate \& E-Fest, ASME Chapter, VIT Vellore, ( Media \& Management ) 
+\href{https://drive.google.com/file/d/1skeeRg3UISDUtRxwI7Nfen7c6zbsuysX/view?usp=sharing}{\faLink{}} \hfill\hfill(\textit{Dec'17-Dec'19}) 
+
+\vspace{2mm}
+\end{itemize}
+
+
+%------------Achievements--------------
+
+
+\shorterSection{Academic Achievements and Recognition's}
+\begin{itemize}
+
+ \item \textbf{Academic Excellence Award} for the sem. '2023-24 First' for ranking among the \textbf{top 10\%} in the CSE department.\href{https://www.iitk.ac.in/sspc/data/2nd-list-of-Academic-Excellence-Awards-2023-21-03-24.pdf}{\faLink{}} \href{https://drive.google.com/file/d/1jnb98lF2TscnxkIrKWC_X26nIbIIifDF/view?usp=sharing}{\faLink{}} \\[-0.6cm]
+ 
+ 
+  \item {\textbf{Top }}open-source project contributor in Winter LLM Bootcamp, offered by \textbf{Pathway X P-Club IIT Kanpur x CoPS IIT BHU} \href{https://t.certifier.io/CL0/https:%2F%2Fapi.credsverse.com%2Fv1%2Fusers%2Finvite%2Fceed2b44-26ae-4085-a1c6-291760efed0a/1/0102018ede88dc5e-89a09bd7-6cea-4807-a2c9-3dff747834d9-000000/_U00joiSf7_qp3anDSJNAiO00y7Hxm7ONFmpv6zOP2g=348}{\faLink{}}\\[-0.6cm]
+
+  \item \textbf{First Position} among 689 registered participants in the \textbf{'Altair Data Science Contest'} conducted by Altair x Techkriti'2024 \href{https://drive.google.com/file/d/1D9f-N0dg1hDBg25C0PcwicyXPSVoKH6y/view?usp=sharing}{\faLink{}}
+
+
+    \item {\textbf{Selected for ACM India Summer Schools 2024}}, held at {\textbf{IIT Bombay}}, offered by Trust Lab, IIT Bombay. \href{https://drive.google.com/file/d/1mHDlgpKEQpYF-BHE-QLPfYljADycJgEZ/view?usp=sharing}{\faLink{}}
+    \href{https://trustlab.iitb.ac.in/trust-matters-2024-jun-summer-school-on-cryptography}{\faLink{}}
+
+
+   \item {\textbf{Selected for Sakura Science University Exchange Program 2024}}, held at {\textbf{Japan}}, organised by Japan Science and Technology Agency. I am among the 5 students, selected from IITK. Visited top Japanese universities, research institutes, \& private companies.
+
+   \item \textbf{ Secured All India Rank: 507 in GATE CSE/IT - 2023} among 1.02 lakh candidates nationwide. \href{https://drive.google.com/file/d/1IkVH0v_xUTgL83VHjq7N5oFpSjw99Zma/view?usp=drive_link}{\faLink{\textbf{Scorecard}}}
+
+
+\end{itemize}
+\medskip
+
+\end{document}
